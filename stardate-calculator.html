@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Code published under Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ -->
 
 <html lang="en">
 
@@ -429,32 +430,8 @@ The version below has been modified for use by Sapere Aude to reflect the in-gam
 <hr />
 
 <h2 style="font-family: play; font-size: 18px; color: #FF7F36; font-weight: normal;">Stardate to Calendar Date</h2>
-<p>Use this tool to convert stardates to in-character calendar dates. Type in the stardate you want to convert and press the "Convert" button. The calendar date will be displayed in the box below.</p>
+<p>Use this tool to convert stardates to in-character calendar dates.</p>
 <p>Note: Stardates prior to January 1, 2333 (Stardate 10000) will not convert properly.</p>
-
-<form name="Ausgabe">
-  <input name="Sprache" value="E" type="hidden" />
-  <table summary="Eingabefeld Sternenzeit">
-    <tbody>
-      <tr>
-        <td style="text-align:right;">Stardate:&nbsp;</td>
-        <td><input size="20" name="Sternenzeit" type="text" /></td>
-        <td>
-			<input value="Convert" onclick="javascript:EarthTime()" style="font-weight:bold" type="button" />
-		</td>
-      </tr>
-	  <tr>
-		<td style="text-align:right; font-weight: bold;">Calendar Date:&nbsp;</td>
-		<td colspan="3">
-			<input size="30" readonly="readonly" name="Erdenzeit" type="text" />
-		</td>
-    </tbody>
-  </table>
-</form>
-
-<h2 style="font-family: play; font-size: 18px; color: #FF7F36; font-weight: normal;">IRL Calendar Date to Stardate</h2>
-<p>Use this tool to create a stardate based on the date in real life (IRL). Select the IRL date that you want to convert and press the "Convert" button. The stardate will be displayed in the box below. The default values will give you the <b>current</b> stardate (based on your computer's system clock). Note: IRL dates prior to January 1, 1934 (Stardate 10000) will not convert properly.</p>
-<p>This converter is NOT for in-character calendar dates; if you are entering in-character years (ie. 2415), use the tool below.</p>
 
 <form name="Eingabe">
   <input name="Sprache" value="E" type="hidden" />
@@ -628,10 +605,8 @@ The version below has been modified for use by Sapere Aude to reflect the in-gam
   <input name="Sternendatum" readonly="readonly" type="text" />
 </form>
 
-</section>
 <h2 style="font-family: play; font-size: 18px; color: #FF7F36; font-weight: normal;">In-Character Calendar Date to Stardate</h2>
-<p>Use this tool to create a stardate based on an in-character calendar date. Select the in-character date that you want to convert and press the "Convert" button. The stardate will be displayed in the box below. The default values will give you the <b>current</b> stardate (based on your computer's system clock). Note: In-Character dates prior to January 1, 2333 (Stardate 10000) will not convert properly.</p>
-<p>This converter is NOT for IRL calendar dates; if you are entering a date in the present day (ie. 2016), use the tool above.</p>
+<p>Use this tool to create a stardate based on an in-character calendar date. </p>
 
 <form name="EingabeIC">
   <input name="Sprache" value="E" type="hidden" />
@@ -804,8 +779,6 @@ The version below has been modified for use by Sapere Aude to reflect the in-gam
    <span style="font-weight: bold;">Stardate:</span>
   <input name="SternendatumIC" readonly="readonly" type="text" />
 </form>
-
-</section>
 
 </div>
 
